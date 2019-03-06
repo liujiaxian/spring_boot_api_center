@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    url: jdbc:mysql://111.67.197.183:3306/api_center
+    username: api_center
+    password: TFexbFbzCj
+    driver-class-name: com.mysql.jdbc.Driver

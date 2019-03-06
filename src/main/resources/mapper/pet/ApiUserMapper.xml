@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jihuiweb.pet.dao.ApiUserMapper">
+  <resultMap id="BaseResultMap" type="com.jihuiweb.pet.model.ApiUser">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="api_id" jdbcType="BIGINT" property="apiId" />
+    <result column="app_id" jdbcType="BIGINT" property="appId" />
+    <result column="api_key" jdbcType="VARCHAR" property="apiKey" />
+    <result column="user_id" jdbcType="BIGINT" property="userId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="contact_name" jdbcType="VARCHAR" property="contactName" />
+    <result column="api_type" jdbcType="INTEGER" property="apiType" />
+    <result column="created_time" jdbcType="TIMESTAMP" property="createdTime" />
+  </resultMap>
+</mapper>
